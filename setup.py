@@ -9,7 +9,7 @@ setup(
     packages = ["validatos"],
 
     url = "https://github.com/ovillalbah/validatos",
-    download_url = "https://github.com/ovillalbah/validatos/tallbars/1.0",
+    download_url = "https://github.com/ovillalbah/validatos/tallbars/1.2",
     keywords = ["validacion", "informacion"],
     include_package_data=True
 )
