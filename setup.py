@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name = "validatos",
-    version = "1.0",
+    version = "1.2",
     description = "Paquete para validación de información",
     author = "Admin SpotyUN",
     correo = "oscarvillalba0807@gmail.com",

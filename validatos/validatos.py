@@ -2,13 +2,13 @@
 class Validatos():
 
     # Función para validar la longitud de un cadena retorna un booleano usando la funcion len()
-    def __validar_len(self, dato: str, longitud: int) -> bool:
+    def __validar_len(dato: str, longitud: int) -> bool:
         while (x := len(dato)) <= longitud:
             return True
 
 
     # Función para validar si existe o no algún caracter especial en la cadena retorna un boolean
-    def __validacion_caracteres(self, dato: str) -> bool:
+    def __validacion_caracteres(dato: str) -> bool:
         lcaracter = "'áéíóú ´/*+,;:{}[]()¨!|¬#$%&=?¿¡!"
         for i in dato:
             if i in lcaracter:
